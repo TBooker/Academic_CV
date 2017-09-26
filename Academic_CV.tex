@@ -1,0 +1,460 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% Simple LaTeX CV Template %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% NOTE: If you find that it says                                     %%
+%%                                                                    %%
+%%                           1 of ??                                  %%
+%%                                                                    %%
+%% at the bottom of your first page, this means that the AUX file     %%
+%% was not available when you ran LaTeX on this source. Simply RERUN  %%
+%% LaTeX to get the ``??'' replaced with the number of the last page  %%
+%% of the document. The AUX file will be generated on the first run   %%
+%% of LaTeX and used on the second run to fill in all of the          %%
+%% references.                                                        %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Don't like 10pt? Try 11pt or 12pt
+\documentclass[10pt]{article}
+
+% The automated optical recognition software used to digitize resume
+% information works best with fonts that do not have serifs. This
+% command uses a sans serif font throughout. Uncomment both lines (or at
+% least the second) to restore a Roman font (i.e., a font with serifs).
+%\usepackage{times}
+%\renewcommand{\familydefault}{\sfdefault}
+
+% This is a helpful package that puts math inside length specifications
+\usepackage{calc}
+\usepackage{comment}
+
+% Simpler bibsection for CV sections
+% (thanks to natbib for inspiration)
+\makeatletter
+\newlength{\bibhang}
+\setlength{\bibhang}{1em} %1em}
+\newlength{\bibsep}
+ {\@listi \global\bibsep\itemsep \global\advance\bibsep by\parsep}
+\newenvironment{bibsection}%
+        {\begin{enumerate}{}{%
+%        {\begin{list}{}{%
+       \setlength{\leftmargin}{\bibhang}%
+       \setlength{\itemindent}{-\leftmargin}%
+       \setlength{\itemsep}{\bibsep}%
+       \setlength{\parsep}{\z@}%
+        \setlength{\partopsep}{0pt}%
+        \setlength{\topsep}{0pt}}}
+        {\end{enumerate}\vspace{-.6\baselineskip}}
+%        {\end{list}\vspace{-.6\baselineskip}}
+\makeatother
+
+% Layout: Puts the section titles on left side of page
+\reversemarginpar
+
+%
+%         PAPER SIZE, PAGE NUMBER, AND DOCUMENT LAYOUT NOTES:
+%
+% The next \usepackage line changes the layout for CV style section
+% headings as marginal notes. It also sets up the paper size as either
+% letter or A4. By default, letter was used. If A4 paper is desired,
+% comment out the letterpaper lines and uncomment the a4paper lines.
+%
+% As you can see, the margin widths and section title widths can be
+% easily adjusted.
+%
+% ALSO: Notice that the includefoot option can be commented OUT in order
+% to put the PAGE NUMBER *IN* the bottom margin. This will make the
+% effective text area larger.
+%
+% IF YOU WISH TO REMOVE THE ``of LASTPAGE'' next to each page number,
+% see the note about the +LP and -LP lines below. Comment out the +LP
+% and uncomment the -LP.
+%
+% IF YOU WISH TO REMOVE PAGE NUMBERS, be sure that the includefoot line
+% is uncommented and ALSO uncomment the \pagestyle{empty} a few lines
+% below.
+%
+
+%% Use these lines for letter-sized paper
+\usepackage[paper=letterpaper,
+            %includefoot, % Uncomment to put page number above margin
+            marginparwidth=1.2in,     % Length of section titles
+            marginparsep=.05in,       % Space between titles and text
+            margin=0.7in,               % 1 inch margins
+            includemp]{geometry}
+
+%% Use these lines for A4-sized paper
+%\usepackage[paper=a4paper,
+%            %includefoot, % Uncomment to put page number above margin
+%            marginparwidth=30.5mm,    % Length of section titles
+%            marginparsep=1.5mm,       % Space between titles and text
+%            margin=25mm,              % 25mm margins
+%            includemp]{geometry}
+
+%% More layout: Get rid of indenting throughout entire document
+\setlength{\parindent}{0in}
+
+\usepackage[shortlabels]{enumitem}
+
+%% Reference the last page in the page number
+%
+% NOTE: comment the +LP line and uncomment the -LP line to have page
+%       numbers without the ``of ##'' last page reference)
+%
+% NOTE: uncomment the \pagestyle{empty} line to get rid of all page
+%       numbers (make sure includefoot is commented out above)
+%
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+%\pagestyle{empty}      % Uncomment this to get rid of page numbers
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfootoffset{\marginparsep+\marginparwidth}
+\newlength{\footpageshift}
+\setlength{\footpageshift}
+          {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+\lfoot{\hspace{\footpageshift}%
+       \parbox{4in}{\, \hfill %
+                    \arabic{page} of \protect\pageref*{LastPage} % +LP
+%                    \arabic{page}                               % -LP
+                    \hfill \,}}
+
+% Finally, give us PDF bookmarks
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The title (name) with a horizontal rule under it
+% (optional argument typesets an object right-justified across from name
+%  as well)
+%
+% Usage: \makeheading{name}
+%        OR
+%        \makeheading[right_object]{name}
+%
+% Place at top of document. It should be the first thing.
+% If ``right_object'' is provided in the square-braced optional
+% argument, it will be right justified on the same line as ``name'' at
+% the top of the CV. For example:
+%
+%       \makeheading[\emph{Curriculum vitae}]{Your Name}
+%
+% will put an emphasized ``Curriculum vitae'' at the top of the document
+% as a title. Likewise, a picture could be included:
+%
+%   \makeheading[\includegraphics[height=1.5in]{my_picutre}]{Your Name}
+%
+% the picture will be flush right across from the name.
+\newcommand{\makeheading}[2][]%
+        {\hspace*{-\marginparsep minus \marginparwidth}%
+         \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+             {\large \bfseries #2 \hfill #1}\\[-0.15\baselineskip]%
+                 \rule{\columnwidth}{1pt}%
+         \end{minipage}}
+
+% The section headings
+%
+% Usage: \section{section name}
+\renewcommand{\section}[1]{\pagebreak[3]%
+    \hyphenpenalty=10000%
+    \vspace{1.3\baselineskip}%
+    \phantomsection\addcontentsline{toc}{section}{#1}%
+    \noindent\llap{\scshape\smash{\parbox[t]{\marginparwidth}{\raggedright #1}}}%
+    \vspace{-\baselineskip}\par}
+
+% An itemize-style list with lots of space between items
+\newenvironment{outerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1,leftmargin=*]}{\end{itemize}%
+         \vspace{-.6\baselineskip}}
+
+% An environment IDENTICAL to outerlist that has better pre-list spacing
+% when used as the first thing in a \section
+
+\newenvironment{lonelist}[1][\enskip\textbullet]%
+        {\begin{list}{#1}{%
+        \setlength{\partopsep}{0pt}%
+        \setlength{\topsep}{0pt}}}
+        {\end{list}\vspace{-.6\baselineskip}}
+
+% An itemize-style list with little space between items
+\newenvironment{innerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt]}
+        {\end{itemize}}
+
+% An environment IDENTICAL to innerlist that has better pre-list spacing
+% when used as the first thing in a \section
+\newenvironment{loneinnerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt]}
+        {\end{itemize}\vspace{-.6\baselineskip}}
+
+% To add some paragraph space between lines.
+% This also tells LaTeX to preferably break a page on one of these gaps
+% if there is a needed pagebreak nearby.
+\newcommand{\blankline}{\quad\pagebreak[3]}
+\newcommand{\halfblankline}{\quad\vspace{-0.5\baselineskip}\pagebreak[3]}
+
+% Uses hyperref to link DOI
+\newcommand\doilink[1]{\href{http://dx.doi.org/#1}{#1}}
+\newcommand\doi[1]{doi:\doilink{#1}}
+
+% For \url{SOME_URL}, links SOME_URL to the url SOME_URL
+\providecommand*\url[1]{\href{#1}{#1}}
+% Same as above, but pretty-prints SOME_URL in teletype fixed-width font
+\renewcommand*\url[1]{\href{#1}{\texttt{#1}}}
+
+% For \email{ADDRESS}, links ADDRESS to the url mailto:ADDRESS
+\providecommand*\email[1]{\href{mailto:#1}{#1}}
+% Same as above, but pretty-prints ADDRESS in teletype fixed-width font
+%\renewcommand*\email[1]{\href{mailto:#1}{\texttt{#1}}}
+
+%\providecommand\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+%    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+%\providecommand\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+%    \TeX}}
+\providecommand\BibTeX{{B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    \TeX}}
+\providecommand\Matlab{\textsc{Matlab}}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\makeheading{Tom R. Booker}
+
+\section{Contact Information}
+
+% NOTE: Mind where the & separators and \\ breaks are in the following
+%       table.
+%
+% ALSO: \rcollength is the width of the right column of the table
+%       (adjust it to your liking; default is 1.85in).
+%
+\newlength{\rcollength}\setlength{\rcollength}{1.4in}%
+%
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
+t.r.booker@sms.ed.ac.uk & Tel. +447858896621 \\\\
+Institute of Evolutionary Biology\\ Ashworth Laboratories\\ Edinburgh, EH9 3FL
+\end{tabular}
+
+
+
+%\section{Objective}
+
+%Insert text here if you want to
+%\begin{innerlist}
+%\item More information and auxiliary documents can be found at\\\url{http://www.tedpavlic.com/facjobsearch/}
+%\end{innerlist}
+
+\section{Research Interests}
+
+Theoretical and empirical population genetics, evolution, genomics, bioinformatics, statistical analysis
+
+
+\section{Education}
+
+{\textbf{University of Edinburgh}},
+Edinburgh, Scotland
+\begin{outerlist}
+
+\item[] Ph.D.,
+             \href{http://www.ed.ac.uk/biology/evolutionary-biology} {Evolutionary Genetics},
+             \emph{Expected:} Autumn 2018
+        \begin{innerlist}
+        \item[]- Thesis Title: \emph{Understanding patterns of genetic diversity in the genomes of wild mice}
+        \item[]- Supervisors: Professor Peter Keightley and Professor Brian Charlesworth
+        \item[]- As part of my EASTBIO scholarship, I spent 3 months learning bioinformatic approaches and techniques at Fusion Genomics, Vancouver, Canada
+        \end{innerlist}
+
+\item[] MSc.,
+        \href{http://qgen.bio.ed.ac.uk/}
+             {Quantitative Genetics and Genome Analysis},
+             2013 - 2014 (Distinction)
+        \begin{innerlist}
+        \item[]- Thesis Title: \emph{Searching for balancing selection on a mimicry supergene in the Batesian mimic} Papilio polytes
+        \item[]- Supervisors: Professor Deborah Charlesworth and Dr Rob W. Ness
+        \item[]- In addition to the thesis component, the MSc program consisted of courses on statistical analysis, population genetics, molecular evolution and phylogenetics, as well as linkage analysis.
+        \end{innerlist}
+\end{outerlist}
+\vspace{.1in}
+\href{}{\textbf{University of Stirling}},
+Stirling, Scotland
+\begin{outerlist}
+\item[] BSc Hons,
+        \href{http://www.stir.ac.uk/natural-sciences/about-us/bes/}
+             {Ecology}, 2009 - 2013 (First Class)
+        \begin{innerlist}
+        \item[]- Dissertation Title: \emph{An investigation into the fitness and distribution of a newly discovered allopolyploid species,} Mimulus peregrinus
+        \item[]- Supervisor:
+                   Dr Mario Vallejo-Marin
+        \item[]- I undertook a Summer research project on \emph{Mimulus spp.} in Southern and Central Scotland in 2012 with Dr Vallejo-Marin. Courses taken on ecology, conservation biology and genetics. Spent a year on exchange at Simon Fraser University, Vancouver, Canada.
+        \end{innerlist}
+
+\end{outerlist}
+
+\section{Experience \& Skills}
+\begin{outerlist}
+
+	\item[] Population genetics
+		\begin{innerlist}
+			\item[] Including: theory, simulations (both forward-time and coalescent), genome scans, demographic analyses, detecting natural selection
+		\end{innerlist}
+
+	\item[] Bioinformatics: 
+			\begin{innerlist}
+			\item[] Including: Handling high-throughput sequence data, read-mapping, variant calling, \emph{de novo} assembly \\ Attended ``\emph{GATK Best practices for variant discovery}'', Edinburgh, UK (2015).
+			\end{innerlist}
+		
+		
+	\item[] Computer skills
+		\begin{innerlist}
+		\item[] Scripting: Python, R and Bash as well as a little bit of C and Perl
+		\item[] OS: Ubuntu, Windows, Mac OSX
+		\item[] Various: Grid Engine clustering systems, git, emacs, ssh/scp, tmux, Microsoft Office
+		\end{innerlist}
+		
+	\item[] Science communication, both written and verbal.
+	
+	
+\end{outerlist}
+
+
+\section{Academic Service}
+\begin{outerlist}
+
+	\item[] I have reviewed articles for the following journals:
+		\begin{innerlist}
+			\item[] \emph{Ecology and Evolution}, \emph{Science}
+		\end{innerlist}
+
+\end{outerlist}
+
+
+\section{Publications}
+\vspace{-.1275in}
+\begin{bibsection}
+
+    \item {\bf Booker, T. R.}, \& Keightley, P. D. (\emph{In preparation}). ``Understanding the forces that shape patterns of genetic diversity in the genome of wild house mice, \emph{Mus musculus castaneus}."
+    
+   \item {\bf Booker, T. R.}, Jackson, B. C., \& Keightley, P. D. (\emph{In press}). ``Detecting positive selection in the genome." \emph{BMC Biology}. 
+
+	\item {\bf Booker, T. R.}, Ness, R. W., \& Keightley, P. D. (2017). ``The recombination landscape in wild house mice inferred using population genomic data". \emph{Genetics}, 207(1) 297-309
+
+	\item Keightley, P. D., Campos, J. L., {\bf Booker, T. R.}, \& Charlesworth, B. (2016). ``Inferring the frequency spectrum of derived variants to quantify adaptive molecular evolution in protein-coding genes of Drosophila melanogaster." \emph{Genetics}, 203(2), 975-984.
+	
+	\item {\bf Booker, T.}, Ness, R. W., \& Charlesworth, D. (2015). ``Molecular evolution: breakthroughs and mysteries in Batesian mimicry". \emph{Current Biology}, 25(12), R506-R508.
+
+\end{bibsection}
+
+
+
+\section{Presentations}
+
+\emph{Selective sweeps and background selection in the genome of wild house mice,} Mus musculus castaneus (Poster - \emph{Runner up best student poster}) \\
+{\bf ESEB 2017}, Groningen, Netherlands \hfill August 2017\\[0.01in]
+{\bf Population Genetics Group 50}, Cambridge, UK \hfill Jan 2017\\[0.01in]
+
+\emph{Hill-Robertson Interference in wild mice,} Mus musculus castaneus (Oral Presentation)\\
+{\bf SMBE}, Gold Coast, Australia  \hfill July 2016\\
+{\bf Population Genetics Group 49}, Edinburgh, UK \hfill December 2015\\[0.01in]
+
+\emph{Selective sweeps and background selection in the genome of wild house mice,} Mus musculus castaneus (Poster)\\
+{\bf SMBE}, Vienna, Austria \hfill July 2015 \\[0.01in]
+
+
+\emph{Simulating genome evolution in the house mouse: understanding the contribution of Hill-Robertson interference to patterns of genetic diversity} (Oral Presentation)\\
+{\bf Quantitative Genomics} London, UK \hfill May 2015 \\[0.01in]
+
+
+
+\section{Academic Honours and Awards}
+\begin{innerlist}
+
+\item \emph{Finalist}, Environment Yes! \hfill Sept 2016
+\item EASTBIO Doctoral Training Partnership Studentship \hfill 2014-2018
+\item Genetics Society, Sir Kenneth Mather Memorial Prize \hfill 2013/2014
+\item University of Edinburgh, Douglas Falconer Award, best MSc dissertation \hfill 2013/2014
+\item Funding for Undergraduate Summer Project:\\ Botanic Society of Scotland and the Society of Biology \hfill Summer 2012
+\item \emph{Nominated}, Simon Fraser University Student Conservation Prize \hfill May 2012
+
+\end{innerlist}
+
+\halfblankline
+
+\section{Teaching}
+
+\begin{innerlist}
+
+\item[] Supervision \hfill 2016\\
+	\emph{I have provided co-supervision to masters and honours students}\\
+\item[] Statistics and Data Analysis, MSc course \hfill 2014-2017\\
+	\emph{Demonstrating in computer practical sessions and running tutorial sessions on probability theory and statistical analysis}\\
+\item[] Population and Quantitative Genetics, MSc course \hfill 2015-2017 \\    
+	\emph{Running tutorial sessions on population genetic theory}\\
+\item[] Ecology and Evolutionary Genetics, BSc course \hfill 2014-2015\\
+	\emph{Demonstrating in computer practical sessions on evolutionary biology}
+
+
+
+\end{innerlist}
+
+\halfblankline
+
+
+\section{Interests}
+
+Aside from evolutionary biology I have several hobbies that I try and find time for. I enjoy playing guitar, woodworking (particularly woodturning), helping out around my parents' farm, hill-walking and playing classic point-and-click adventure games.
+
+
+\section{References}
+
+Professor Peter Keightley
+\begin{innerlist}
+\item[]  Institute of Evolutionary Biology \hfill{E-mail: peter.keightley@ed.ac.uk}\\
+University of Edinburgh
+\end{innerlist}
+
+\halfblankline
+
+Professor Brian Charlesworth
+\begin{innerlist}
+\item[]  Institute of Evolutionary Biology \hfill{E-mail: brian.charlesworth@ed.ac.uk}\\
+University of Edinburgh
+\end{innerlist}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------%
+% The following is copyright and licensing information for
+% redistribution of this LaTeX source code; it also includes a liability
+% statement. If this source code is not being redistributed to others,
+% it may be omitted. It has no effect on the function of the above code.
+%----------------------------------------------------------------------%
+% Copyright (c) 2007, 2008, 2009, 2010, 2011 by Theodore P. Pavlic
+%
+% Unless otherwise expressly stated, this work is licensed under the
+% Creative Commons Attribution-Noncommercial 3.0 United States License. To
+% view a copy of this license, visit
+% http://creativecommons.org/licenses/by-nc/3.0/us/ or send a letter to
+% Creative Commons, 171 Second Street, Suite 300, San Francisco,
+% California, 94105, USA.
+%
+% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+% OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+% MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+% IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+% CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+% TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+% SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+%----------------------------------------------------------------------%

@@ -60,7 +60,7 @@
 
 %% Use these lines for letter-sized paper
 \usepackage[paper=letterpaper,
-            %includefoot, % Uncomment to put page number above margin
+            includefoot, % Uncomment to put page number above margin
             marginparwidth=1.2in,     % Length of section titles
             marginparsep=.05in,       % Space between titles and text
             margin=0.6in,               % 1 inch margins
@@ -89,7 +89,7 @@
 %
 \usepackage{fancyhdr,lastpage}
 \pagestyle{fancy}
-\pagestyle{empty}      % Uncomment this to get rid of page numbers
+%\pagestyle{empty}      % Uncomment this to get rid of page numbers
 \fancyhf{}\renewcommand{\headrulewidth}{0pt}
 \fancyfootoffset{\marginparsep+\marginparwidth}
 \newlength{\footpageshift}
@@ -97,7 +97,7 @@
           {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
 \lfoot{\hspace{\footpageshift}%
        \parbox{4in}{\, \hfill %
-                    \arabic{page} of \protect\pageref*{LastPage} % +LP
+                    \roman{page} of \protect\pageref*{LastPage} % +LP
 %                    \arabic{page}                               % -LP
                     \hfill \,}}
 
@@ -214,8 +214,15 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+
 \begin{document}
+
+
 \makeheading{Tom R. Booker}
+
+\pagenumbering{roman}
+
 %
 %\section{Contact Information}
 %
@@ -242,19 +249,42 @@
 %\item More information and auxiliary documents can be found at\\\url{http://www.tedpavlic.com/facjobsearch/}
 %\end{innerlist}
 
-\section{Research Interests}
 
-Theoretical and empirical population genetics, biodiversity, evolution, genomics, bioinformatics, statistical analysis
+\section{Contact Information}
+
+University of British Columbia, Vancouver\hfill 778-751-4586 (Cell) \\
+ booker@zoology.ubc.ca \hfill \href{https://tbooker.github.io/}{ https://tbooker.github.io/} 
+%\section{Research Interests}
+
+%Theoretical and empirical population genetics, biodiversity, evolution, genomics, bioinformatics, statistical analysis
+
 
 \section{Employment}
 
 {\textbf{University of British Columbia}}, Vancouver, Canada
 
 \begin{innerlist}
-\item[]-	Postdoctoral Research Fellow (Sept 2018 - October 2020)
-\item[]-	Supervised by Professor Michael Whitlock and Assistant Professor Samuel Yeaman (University of Calgary)
+\item[]- Bioinformatics Postdoctoral Fellow (Oct 2021 - October 2023)
+\end{innerlist}
+
+
+{\textbf{University of Calgary}}, Calgary, Canada
+
+\begin{innerlist}
+\item[]-	Postdoctoral Research Fellow (March - October 2021)
+\item[]-	Supervised by Professor Michael Whitlock and Associate Professor Samuel Yeaman
 \end{innerlist}
 	
+
+{\textbf{University of British Columbia}}, Vancouver, Canada
+
+\begin{innerlist}
+\item[]-	Postdoctoral Research Fellow (Sept 2018 - March 2021)
+\item[]-	Supervised by Professor Michael Whitlock and Associate Professor Samuel Yeaman 
+\end{innerlist}
+	
+
+
 \section{Education}
 
 {\textbf{University of Edinburgh}},
@@ -267,6 +297,7 @@ Edinburgh, Scotland
         \begin{innerlist}
         \item[]- Thesis Title: \textsc{Understanding patterns of genetic diversity in the house mouse genome}
         \item[]- Supervisors: Professor Peter Keightley and Professor Brian Charlesworth
+        \item[]- I spent Spring 2018 as a visiting student at UBC hosted by Professor Sally Otto
 
         \end{innerlist}
 
@@ -276,7 +307,7 @@ Edinburgh, Scotland
              2013 - 2014 (Distinction)
         \begin{innerlist}
         \item[]- Thesis Title: \textsc{Searching for balancing selection on a mimicry supergene in the Batesian mimic} \textit{Papilio polytes}
-        \item[]- Supervisors: Professor Deborah Charlesworth and Assistant Professor Rob W. Ness
+        \item[]- Supervisors: Professor Deborah Charlesworth and Rob W. Ness (Now Assistant Professor at University of Toronto - Mississauga)
 
         \end{innerlist}
 \end{outerlist}
@@ -295,24 +326,40 @@ Stirling, Scotland
         \end{innerlist}
 \end{outerlist}
 
+\noindent\hfil\rule{0.5\textwidth}{1pt}\hfil
 
 
-\section{Papers}
-\vspace{-.1275in}
+
+\section{Publications}
+\textbf{Papers in Revision}
+
+\begin{bibsection}
+
+    \item[] {\bf Booker, T. R.}, Jackson, B., Craig, R., Charlesworth, B. \& Keightley, P. D. (\textit{In revision at Molecular Biology and Evolution}) ``Patterns of genetic diversity around protein-coding exons and conserved non-coding elements are explained by strong selective sweeps in mice".  \\\href{https://www.biorxiv.org/content/10.1101/2021.06.10.447924v2}{Preprint online at: https://doi.org/10.1101/2021.06.10.447924}
+
+    \item[] {\bf Booker, T. R.}, Yeaman, S. \& Whitlock, M. C.   (\textit{In revision at Molecular Ecology Resources}) ``The WZA: A window-based method for characterizing genotype-environment association".  \\\href{https://www.biorxiv.org/content/10.1101/2021.06.25.449972v1}{Preprint online at: https://doi.org/10.1101/2021.06.25.449972}
+
+    \item[] Grummer, J.*, Thomaz, A.* {\bf Booker, T. R.}*, Nietlisbach, P.*, Matthey-Doret, R.*, \& Whitlock, M. C.  (\textit{In revision at Conservation Biology}) ``Assisted gene flow is nearly always eventually beneficial, especially when genes are moved in small pulses". \\ \emph{* Joint first author}  \\\href{https://www.biorxiv.org/content/10.1101/2021.04.20.440707v1}{Preprint online at: https://doi.org/10.1101/2021.04.20.440707}
+
+	\item[] Exposito-Alonso, M., {\bf Booker, T. R.}, Czech, L., Fukami, T., Gillespie, L., Hateley, S., ... \& Zess, E. (\textit{Submitted to bioRXiv}). Quantifying the scale of genetic diversity extinction in the Anthropocene. \\\href{https://www.biorxiv.org/content/10.1101/2021.10.13.464000v1}{Preprint online at: https://doi.org/10.1101/2021.10.13.464000}
+\end{bibsection}
+
+\vspace{.1275in}
+\textbf{Published Papers}
+
 \begin{bibsection}
 
 
-    \item {\bf Booker, T. R.}, Yeaman S. \& Whitlock M. C. (\emph{In revision - Evolution Letters}). ``Global adaptation confounds the search for local adaptation". \\
-     Preprint available at: https://www.biorxiv.org/content/10.1101/742247v1
+      \item Lind, B. M., Lu, M., Vidakovic, D., Singh, P., { \bf Booker, T. R.}, Yeaman, S., \& Aitken, S. (2021 - \textit{In press}). ``Haploid, diploid, and pooled exome capture recapitulate features of biology and paralogy in two non-model tree species". \emph{Molecular Ecology Resources}, 00, 1– 14. 
+  
+    \item {\bf Booker, T. R.}, Yeaman S. \& Whitlock M. C. (2021). ``Global adaptation complicates the search for local adaptation".  \emph{Evolution Letters}, 5: 4-15. 
 
+    \item {\bf Booker, T. R.}, Yeaman S. \& Whitlock M. C. (2020) ``Variation in recombination rate affects detection of outliers in genome scans under neutrality.". \emph{Molecular Ecology}, 29: 4274–4279. \emph{Highlighted on the cover and accompanying perspective piece}
 
-	\item Byers K.A., {\bf Booker T. R.}, Combs M., Himsworth C.G., Munshi-South J., Patrick D.M., Whitlock M.C.. (\emph{Accepted})  ``Using genetic relatedness to understand heterogeneous distributions of urban rat-associated pathogens``. \emph{Evolutionary Applications}
-
-    \item {\bf Booker, T. R.}, Yeaman S. \& Whitlock M. C. (2020) ``Variation in recombination rate affects detection of $F_{ST}$ outliers under neutrality".\\
-	\emph{Molecular Ecology}, Early Access - \emph{Highlighted on the cover and accompanying News and Views piece}
+	\item Byers K.A., {\bf Booker T. R.}, Combs M., Himsworth C.G., Munshi-South J., Patrick D.M., Whitlock M.C.. (2020)  ``Using genetic relatedness to understand heterogeneous distributions of urban rat-associated pathogens``. \emph{Evolutionary Applications} 00: 1–12.
    
     \item {\bf Booker, T. R.} (2020) ``Inferring parameters of the distribution of fitness effects of new mutations when beneficial mutations are strongly advantageous and rare". \\
-     G3: GENES, GENOMES, GENETICS Early online May 5, 2020;
+     \emph{G3: Genes, Genomes, Genetics}, 10(7) 2317-2326
 
     \item {\bf Booker, T. R.}, \& Keightley, P. D. (2018). ``Understanding the factors that shape patterns of nucleotide diversity in the house mouse genome". \emph{Molecular Biology and Evolution}, 35(12) 2971-2988
     
@@ -326,83 +373,186 @@ Stirling, Scotland
 
 \end{bibsection}
 
- \section{Papers in preparation}
-\vspace{-.1275in}
-\begin{itemize}
 
-    
-    \item {\bf Booker, T. R.}, Jackson, B. Craig, R. Charlesworth, B. \& Keightley, P. D.  ``Patterns of genetic diversity around protein-coding
-exons and conserved non-coding elements are explained by strong selective sweeps in mice".
+\section{Equity, Diversity \& Inclusion Activities}
 
-\end{itemize}
-	
-\section{Academic Honours and Awards}
+
 \begin{innerlist}
-\item Registration Award - Society of Molecular Biology and Evolution \hfill 2019
-\item \emph{Runner up} Best student talk at Population Genetics Group 51 \hfill 2018
-\item \emph{Runner up} Best student poster at Population Genetics Group 50 \hfill 2017
-\item Environment Yes! \emph{Won regional heat - runner up at the national final} \hfill Sept 2016
-\item EASTBIO Doctoral Training Partnership Studentship \hfill 2014-2018
-\item Genetics Society, Sir Kenneth Mather Memorial Prize \hfill 2013/2014
-\item University of Edinburgh, Douglas Falconer Award, best MSc dissertation \hfill 2013/2014
-\item Funding for Undergraduate Summer Project:\\ Botanic Society of Scotland and the Society of Biology \hfill Summer 2012
-\item \emph{Nominated}, Simon Fraser University Student Conservation Prize \hfill May 2012
+
+	\item[] 2021 - Participant - \textit{Indigenous Awareness } - Organised by Indigenous Corporate Training inc.
+	
+	\item[] 2021 - Participant - \emph{pgEd Webinar Series: History of Eugenics} - Organised by the GSA
 
 \end{innerlist}
 
 
-\section{Academic Service}
+\section{Academic Honours and Awards}
 \begin{innerlist}
-	\item[] I have reviewed articles for the following journals:
-		\begin{innerlist}
-			\item[] \emph{PLoS Genetics}, \emph{Molecular Biology and Evolution}, \emph{Genome Biology and Evolution}, \emph{Ecology and Evolution}, \emph{Frontiers in Zoology}
-		\end{innerlist}
+  \setlength\itemsep{0.3em}
+
+\item[] University of British Columbia - Bioinformatics Research Fellowship \hfill 2020
+\item[] Registration Award - Society of Molecular Biology and Evolution \hfill 2019
+\item[] \emph{Runner up} Best student talk at Population Genetics Group 51 \hfill 2018
+\item[] \emph{Runner up} Best student poster at Population Genetics Group 50 \hfill 2017
+\item[] Environment Yes! \emph{Won regional heat - runner up at the national final} \hfill Sept 2016
+\item[] EASTBIO Doctoral Training Partnership Studentship \hfill 2014-2018
+\item[] Genetics Society, Sir Kenneth Mather Memorial Prize \hfill 2013/2014
+\item[] University of Edinburgh, Douglas Falconer Award, best MSc dissertation \hfill 2013/2014
+\item[] Funding for Undergraduate Summer Project:\\ Botanic Society of Scotland and the Society of Biology \hfill Summer 2012
+\item[] \emph{Nominated}, Simon Fraser University Student Conservation Prize \hfill May 2012
+
+\end{innerlist}
+
+
+\section{Service \& Outreach}
+	{\bf Reviewing}
+\begin{innerlist}
+\vspace{.1275in}
+
+			\item[] \emph{Science}, \emph{PLoS Genetics}, \emph{Molecular Biology and Evolution}, \emph{Evolution}, \emph{Molecular Ecology}, \emph{Genome Biology and Evolution}, \emph{Ecology and Evolution}, \emph{Frontiers in Zoology}, \emph{Peer Community in Evolutionary Biology}, \emph{G3}, \emph{BMC Biology}  
 
 \halfblankline
 
-	\item 2019 - Poster Judge BIOL 310 Animal Behaviour - UBC 
+  \setlength\itemsep{0.3em}
 
-	\item 2019 - \emph{Ongoing} Co-organiser of the Vancouver Evolution Group (VEG)
+	\end{innerlist}
 
-	\item 2019 I took part in a mentor scheme for undergraduate students attending SMBE 2019 in Manchester, UK
+	\vspace{.1275in}
 
-	\item 2017 I started and organised a journal club on classic population genetic papers at the University of Edinburgh in 2017
+	{\bf Academic Service}
+\begin{innerlist}
+
+	\item[] 2021 - \textit{Present} - Member of the Junior Editorial Board at \href{https://onlinelibrary.wiley.com/page/journal/1365294x/homepage/editorialboard.html}{Molecular Ecology}
+	
+	\item[] 2019 \& 2021 Undergraduate Student Mentor for Society for Molecular Biology and Evolution
+	
+\end{innerlist}
+\vspace{.1275in}
 
 
+	{\bf Departmental Service}
+\vspace{.1275in}
 
+\begin{innerlist}
+  \setlength\itemsep{0.3em}
+
+	\item[] 2021 - \textit{Present} - I organise $\Delta$-tea, an evolutionary genetics discussion group at UBC
+	
+	\item[] 2020 - \textit{Present} - Bioinformatics office hours at UBC 
+	
+	\item[] 2020-2021  I ran virtual trivia nights for my department at UBC during the COVID-19 pandemic
+	
+	\item[] 2020  Postdoc representative on department expansion committee for the Biodiversity Research Centre at UBC
+
+
+	\item[] 2019 - 2020 I co-organised meetings of the Vancouver Evolution Group (VEG)\\\emph{I stopped due to childcare out of work hours}
+
+	\item[] 2017 - I started and organised a journal club on classic population genetic papers at the University of Edinburgh in 2017
 
 \end{innerlist}
+\vspace{.1275in}
+
+	{\bf Outreach}
+\vspace{.1275in}
+
+\begin{innerlist}
+  \setlength\itemsep{0.3em}
+
+	\item[] 2021  Skype a Scientist participant
+
+	\item[] 2020-2021  Essay judge for Canadian Undergraduate Research Competition \href{https://www.canadacurc.com/}{(CURC)}
+	
+	\item[] 2020 Mentor for high school students during the Summer of 2020 - organised through \href{https://teennerdnite.wordpress.com/}Teen Nerd Nite
+
+	\item[] 2019 Poster Judge BIOL 310 Animal Behaviour
+
+	\item[] 2018-2019 Poster and talk judge EcoEvo Retreat
+
+\end{innerlist}
+
 
 \blankline
 
 
-\section{Teaching}
+\section{Teaching Experience}
 
-{\bf Mentoring} 
+\textbf{Course Coordination}
 
-\tab C. Atkinson -  Directed studies co-supervisor - \emph{Undergraduate student at UBC}\\
+\vspace{.1275in}
 
-\tab K.A. Byers -  Bioinformatics/genomics mentor - \emph{PhD student at UBC}\\
-
-\tab S-A. Xerri - Master's project co-supervisor - \emph{Now PhD student at the Max Planck Institute}\\
-
-\tab C. Barata - Master's project co-supervisor- \emph{Now PhD student at the University of St. Andrews}\\
-
-\tab B. Lecher - Honour's project co-supervisor- \emph{Now Pre Doctoral Fellow at the European Bioinformatics Institute} \\
-
-{\bf Course Instruction}
 \begin{innerlist}
-\item[] Statistics and Data Analysis, MSc course \hfill 2014-2017\\
-	\emph{Demonstrated in computer practical sessions, ran tutorials on probability theory and statistical analysis and marked term papers}\\
-\item[] Population and Quantitative Genetics, MSc course \hfill 2015-2017 \\    
-	\emph{Ran tutorial sessions on population genetic theory}\\
-\item[] Ecology and Evolutionary Genetics, BSc course \hfill 2014-2015\\
-	\emph{Demonstrated in computer practical sessions on evolutionary biology}
+  \setlength\itemsep{0.3em}
+  	
+\item[] 	BIOL525D: Bioinformatics for Evolutionary Genetics \hfill 2020-2023\\
+	\emph{Upper division course at UBC on bioinformatics. \\ \textit{Website and course materials at: \href{https://ubc-biol525d.github.io/}{(https://ubc-biol525d.github.io/)}}} \\
+
+
+\end{innerlist}
+
+\textbf{Teaching Assistance}
+\vspace{.1275in}
+
+\begin{innerlist}
+  \setlength\itemsep{0.3em}
+  	
+  	
+\item[] Statistics and Data Analysis, MSc course \hfill 2014-2017
+	\vspace{.025in}
+
+	\textit{Upper division course, part of the MSc QGGA program at the University of Edinburgh} \\
+
+
+\item[] Population and Quantitative Genetics, MSc course \hfill 2015-2017 
+	\vspace{.025in}
+	
+	\textit{Upper division course, part of the MSc QGGA program at the University of Edinburgh} \\
+
+\item[] Ecology and Evolutionary Genetics, BSc course \hfill 2014-2015
+	\vspace{.025in}
+	
+		\textit{Undergraduate course, offered at the University of Edinburgh} \\
+
+
 \end{innerlist}
 
 \halfblankline
 
-\section{Selected Presentations}
+
+
+\section{Student Supervision}
+
+
+C. Atkinson -  Directed studies co-supervisor (2019-2020) - \emph{Undergraduate student at UBC}\\
+
+K.A. Byers -  Bioinformatics/genomics mentor for PhD project (2018-2020) - \emph{Now postdoctoral research fellow}\\
+
+S-A. Xerri - Master's project co-supervisor (2018) - \emph{Now PhD student at the Max Planck Institute}\\
+
+C. Barata - Master's project co-supervisor (2017) - \emph{Now PhD student at the University of St. Andrews}\\
+
+B. Lecher - Honour's project co-supervisor (2016-2017) - \emph{Now Pre Doctoral Fellow at the European Bioinformatics Institute} \\
+
+
+
+\section{Invited Presentations}
+
+ {\bf August 2021}  - Monash University, School of Biological Sciences Internal Seminar Series, \textit{Online} (Talk) \\
+\emph{Identifying the genetic basis of local adaptation and testing for convergent evolution across lineages} \\
+
+{\bf June 2021}  - Vitual SMBE 2021 \textit{Online} (Talk)\\
+\emph{Background selection under evolving recombination rates} \\
+
+{\bf May 2021}  - Mooers lab group at Simon Fraser University, Canada, \textit{Online} (Talk) \\
+\emph{The genetics of assisted gene flow} \\
+
+\section{Contributed Presentations}
+
+
+{\bf March 2021}  - EvolTree, \textit{in silico}, Switzerland (Poster) \\
+\emph{Identifying the genetic basis of local adaptation and testing for convergent evolution across lineages} \\
+
+{\bf March 2021}  - Virtual EcoEvo Retreat, \textit{in silico}, Canada (Talk) \\
+\emph{Background selection under evolving recombination rates} \\
 
 {\bf January 2020} - American Society of Naturalists 2020, Asilomar, USA (Talk) \\
 \emph{Global adaptation confounds the search for local adaptation} \\
@@ -439,12 +589,14 @@ exons and conserved non-coding elements are explained by strong selective sweeps
 \emph{Selective sweeps and background selection in the genome of wild house mice,} Mus musculus castaneus \\
 
 {\bf May 2015} - Quantitative Genomics, 2015, London, UK (Talk) \\
-\emph{Simulating genome evolution in the house mouse: understanding the contribution of Hill-Robertson interference to patterns of genetic diversity} \\
-
-
+\emph{Simulating genome evolution in the house mouse: understanding the contribution of Hill-Robertson interference to patterns of genetic diversity} 
 \pagebreak
 
-\makeheadingGeneric{References}
+\end{document}
+
+	
+
+makeheadingGeneric{References}
 
 \blankline
 
@@ -466,19 +618,16 @@ University of Edinburgh
 
 \halfblankline
 
-Professor Deborah Charlesworth
+Assistant Professor Sam Yeaman
 \begin{innerlist}
-\item[] MSc Supervisor
-\item[]  Institute of Evolutionary Biology \hfill{E-mail: deborah.charlesworth@ed.ac.uk}\\
-University of Edinburgh
+\item[] Postdoctoral Supervisor
+\item[]   Department of Biological Sciences\hfill{E-mail: samuel.yeaman@ucalgary.ca}\\
+University of Calgary
 \end{innerlist}
 
 
-\end{document}
 
-	
-
-
+\pagebreak
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%% End Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%

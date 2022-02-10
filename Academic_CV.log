@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.12)  26 OCT 2021 13:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.12)  9 FEB 2022 15:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -362,24 +362,24 @@ Package hyperref Warning: Suppressing link with empty target on input line 315.
 
 
 
-Overfull \hbox (14.88615pt too wide) in paragraph at lines 340--341
+Overfull \hbox (14.88615pt too wide) in paragraph at lines 343--344
 []\OT1/phv/b/n/10.95 Booker, T. R.\OT1/phv/m/n/10.95 , Yea-man, S. & Whit-lock,
  M. C. (\OT1/phv/m/sl/10.95 In re-vi-sion at Molec-u-lar Ecol-ogy Re-sources\OT
 1/phv/m/n/10.95 )
  []
 
 
-Overfull \hbox (23.07785pt too wide) in paragraph at lines 340--341
+Overfull \hbox (23.07785pt too wide) in paragraph at lines 343--344
 \OT1/phv/m/n/10.95 ``The WZA: A window-based method for char-ac-ter-iz-ing geno
 type-environment as-so-ci-a-tion". 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 343.
+(Font)              <10.95> on input line 346.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 343.
+(Font)              <8> on input line 346.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 343.
+(Font)              <6> on input line 346.
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -393,20 +393,71 @@ Missing character: There is no â in font phvr7t!
 Missing character: There is no € in font phvr7t!
 Missing character: There is no “ in font phvr7t!
 
-Overfull \hbox (12.25952pt too wide) in paragraph at lines 372--373
+Overfull \hbox (12.25952pt too wide) in paragraph at lines 375--376
 []\OT1/phv/b/n/10.95 Booker, T.\OT1/phv/m/n/10.95 , Ness, R. W., & Charlesworth
 , D. (2015). ``Molec-u-lar evo-lu-tion: break-throughs
  []
 
 
-Overfull \hbox (3.9598pt too wide) in paragraph at lines 382--383
+Overfull \hbox (3.9598pt too wide) in paragraph at lines 387--388
 []\OT1/phv/m/n/10.95 2021 - Par-tic-i-pant - \OT1/phv/m/sl/10.95 In-dige-nous A
 ware-ness  \OT1/phv/m/n/10.95 - Or-gan-ised by In-dige-nous Cor-po-rate Train-i
 ng
  []
 
 [2]
-Overfull \hbox (2.37988pt too wide) in paragraph at lines 412--413
+Underfull \hbox (badness 10000) in paragraph at lines 404--406
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--432
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--444
+
+ []
+
+
+Overfull \hbox (4.25468pt too wide) in paragraph at lines 445--446
+[]\OT1/phv/m/n/10.95 K.A. By-ers - Bioin-for-mat-ics/genomics men-tor for PhD p
+roject (2018-2020) - \OT1/phv/m/sl/10.95 Now post-doc-toral
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 449--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
+
+ []
+
+[3]
+Overfull \hbox (2.37988pt too wide) in paragraph at lines 479--480
 []\OT1/phv/m/sl/10.95 Science\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 PLoS Ge-n
 et-ics\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 Molec-u-lar Bi-ol-ogy and Evo-lu
 -tion\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 Evo-lu-tion\OT1/phv/m/n/10.95 , \
@@ -414,196 +465,61 @@ OT1/phv/m/sl/10.95 Molec-u-lar Ecol-ogy\OT1/phv/m/n/10.95 ,
  []
 
 
-Overfull \hbox (25.19815pt too wide) in paragraph at lines 412--413
+Overfull \hbox (15.08696pt too wide) in paragraph at lines 479--480
+\OT1/phv/m/sl/10.95 Pro-ceed-ings of the Royal So-ci-ety B\OT1/phv/m/n/10.95 , 
 \OT1/phv/m/sl/10.95 Genome Bi-ol-ogy and Evo-lu-tion\OT1/phv/m/n/10.95 , \OT1/p
-hv/m/sl/10.95 Ecol-ogy and Evo-lu-tion\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 
-Fron-tiers in Zo-ol-ogy\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 Peer Com-mu-nit
-y
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 486--488
-
+hv/m/sl/10.95 Ecol-ogy and Evo-lu-tion\OT1/phv/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--503
+Underfull \hbox (badness 10000) in paragraph at lines 546--548
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--509
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 513--514
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--526
-
- []
-
-
-Overfull \hbox (4.25468pt too wide) in paragraph at lines 527--528
-[]\OT1/phv/m/n/10.95 K.A. By-ers - Bioin-for-mat-ics/genomics men-tor for PhD p
-roject (2018-2020) - \OT1/phv/m/sl/10.95 Now post-doc-toral
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 527--528
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 529--530
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 531--532
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 533--534
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 539--541
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 542--544
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 545--547
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 551--553
+Underfull \hbox (badness 10000) in paragraph at lines 549--551
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 554--556
+Underfull \hbox (badness 10000) in paragraph at lines 552--554
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--559
+Underfull \hbox (badness 10000) in paragraph at lines 555--557
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--562
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--565
-
- []
-
-
-Overfull \hbox (10.68282pt too wide) in paragraph at lines 566--568
-\OT1/phv/m/sl/10.95 Patterns of ge-netic di-ver-sity around protein-coding ex-o
-ns and con-served non-coding el-e-ments
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 566--568
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 569--571
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 572--574
-
- []
-
-
-Overfull \hbox (6.20732pt too wide) in paragraph at lines 575--577
-\OT1/phv/m/sl/10.95 Selective sweeps and back-ground se-lec-tion in the genome 
-of wild house mice, \OT1/phv/m/n/10.95 Mus mus-cu-lus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 575--577
-
- []
-
-
-Overfull \hbox (6.20732pt too wide) in paragraph at lines 578--580
-\OT1/phv/m/sl/10.95 Selective sweeps and back-ground se-lec-tion in the genome 
-of wild house mice, \OT1/phv/m/n/10.95 Mus mus-cu-lus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 578--580
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 581--583
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 584--586
-
- []
-
-
-Overfull \hbox (6.20732pt too wide) in paragraph at lines 588--590
-\OT1/phv/m/sl/10.95 Selective sweeps and back-ground se-lec-tion in the genome 
-of wild house mice, \OT1/phv/m/n/10.95 Mus mus-cu-lus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 588--590
-
- []
-
-[5] 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 595.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 595.
-(./Academic_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 595.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 595.
+[5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 561.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 561.
+ (./Academic_CV.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 561.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 561.
 Package rerunfilecheck Info: File `Academic_CV.out' has not changed.
-(rerunfilecheck)             Checksum: AB6E0A63D5121FEC5805C051E64720D0;625.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 595.
+(rerunfilecheck)             Checksum: C975A6CE5FF40F8D4ACBEED0FC351D17;562.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 561.
  ) 
 Here is how much of TeX's memory you used:
- 6223 strings out of 493117
- 93255 string characters out of 6135432
+ 6221 strings out of 493117
+ 93231 string characters out of 6135432
  191283 words of memory out of 5000000
- 9618 multiletter control sequences out of 15000+600000
+ 9617 multiletter control sequences out of 15000+600000
  15711 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,14n,68p,477b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,13n,68p,474b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texm
 f-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Academic_CV.pdf (5 pages, 53399 bytes).
+Output written on Academic_CV.pdf (5 pages, 51589 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 103 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

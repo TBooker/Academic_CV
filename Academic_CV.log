@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.12)  17 SEP 2018 11:27
 =======
 This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.12)  14 AUG 2020 09:28
+>>>>>>> origin/master
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.12)  26 OCT 2021 13:31
 >>>>>>> origin/master
 entering extended mode
  restricted \write18 enabled.
@@ -259,6 +263,7 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 109.
 \openout1 = `Academic_CV.aux'.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 232.
 LaTeX Font Info:    ... okay on input line 232.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 232.
@@ -290,6 +295,23 @@ LaTeX Font Info:    ... okay on input line 217.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 217.
 LaTeX Font Info:    ... okay on input line 217.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 217.
+=======
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 219.
+>>>>>>> origin/master
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1phv.fd
@@ -303,13 +325,13 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: includemp 
+* modes: includefoot includemp 
 * h-part:(L,W,R)=(43.36243pt, 527.57014pt, 43.36243pt)
 * v-part:(T,H,B)=(43.36243pt, 708.24513pt, 43.36243pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=437.23267pt
-* \textheight=708.24513pt
+* \textheight=678.24513pt
 * \oddsidemargin=61.42992pt
 * \evensidemargin=61.42992pt
 * \topmargin=-65.90756pt
@@ -337,9 +359,13 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
 <<<<<<< HEAD
+<<<<<<< HEAD
 (lastpage)             ! on input line 232.
 =======
 (lastpage)             ! on input line 217.
+>>>>>>> origin/master
+=======
+(lastpage)             ! on input line 219.
 >>>>>>> origin/master
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -357,9 +383,13 @@ Package lastpage Info: Please have a look at the pageslts package at
 )
 \AtBeginShipoutBox=\box28
 <<<<<<< HEAD
+<<<<<<< HEAD
 Package hyperref Info: Link coloring ON on input line 232.
 =======
 Package hyperref Info: Link coloring ON on input line 217.
+>>>>>>> origin/master
+=======
+Package hyperref Info: Link coloring ON on input line 219.
 >>>>>>> origin/master
  (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -370,6 +400,7 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 \c@section@level=\count114
 )
 <<<<<<< HEAD
+<<<<<<< HEAD
 LaTeX Info: Redefining \ref on input line 232.
 LaTeX Info: Redefining \pageref on input line 232.
 LaTeX Info: Redefining \nameref on input line 232.
@@ -378,38 +409,52 @@ LaTeX Info: Redefining \ref on input line 217.
 LaTeX Info: Redefining \pageref on input line 217.
 LaTeX Info: Redefining \nameref on input line 217.
 >>>>>>> origin/master
+=======
+LaTeX Info: Redefining \ref on input line 219.
+LaTeX Info: Redefining \pageref on input line 219.
+LaTeX Info: Redefining \nameref on input line 219.
+>>>>>>> origin/master
 
 (./Academic_CV.out) (./Academic_CV.out)
 \@outlinefile=\write4
 \openout4 = `Academic_CV.out'.
 
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 218.
-
-Overfull \hbox (15.27943pt too wide) in paragraph at lines 247--248
-[]\OT1/phv/m/n/10.95 Theoretical and em-pir-i-cal pop-u-la-tion ge-net-ics, bio
--di-ver-sity, evo-lu-tion, ge-nomics, bioin-for-mat-ics,
- []
-
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 222.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 251.
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 254.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 264.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 267.
+
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 254.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 267.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 278.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 309.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 284.
+Package hyperref Warning: Suppressing link with empty target on input line 315.
 
+
+
+Overfull \hbox (14.88615pt too wide) in paragraph at lines 340--341
+[]\OT1/phv/b/n/10.95 Booker, T. R.\OT1/phv/m/n/10.95 , Yea-man, S. & Whit-lock,
+ M. C. (\OT1/phv/m/sl/10.95 In re-vi-sion at Molec-u-lar Ecol-ogy Re-sources\OT
+1/phv/m/n/10.95 )
+ []
+
+
+Overfull \hbox (23.07785pt too wide) in paragraph at lines 340--341
+\OT1/phv/m/n/10.95 ``The WZA: A window-based method for char-ac-ter-iz-ing geno
+type-environment as-so-ci-a-tion". 
+ []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 311.
+(Font)              <10.95> on input line 343.
 LaTeX Font Info:    External font `cmex10' loaded for size
+<<<<<<< HEAD
 <<<<<<< HEAD
 (Font)              <7> on input line 245.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -434,23 +479,64 @@ Package hyperref Warning: Suppressing link with empty target on input line 291.
 [1
 =======
 (Font)              <8> on input line 311.
+=======
+(Font)              <8> on input line 343.
+>>>>>>> origin/master
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 311.
+(Font)              <6> on input line 343.
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (12.25952pt too wide) in paragraph at lines 325--326
+Missing character: There is no â in font phvr7t!
+Missing character: There is no € in font phvr7t!
+Missing character: There is no “ in font phvr7t!
+Missing character: There is no â in font phvr7t!
+Missing character: There is no € in font phvr7t!
+Missing character: There is no “ in font phvr7t!
+Missing character: There is no â in font phvr7t!
+Missing character: There is no € in font phvr7t!
+Missing character: There is no “ in font phvr7t!
+
+Overfull \hbox (12.25952pt too wide) in paragraph at lines 372--373
 []\OT1/phv/b/n/10.95 Booker, T.\OT1/phv/m/n/10.95 , Ness, R. W., & Charlesworth
 , D. (2015). ``Molec-u-lar evo-lu-tion: break-throughs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--384
+Overfull \hbox (3.9598pt too wide) in paragraph at lines 382--383
+[]\OT1/phv/m/n/10.95 2021 - Par-tic-i-pant - \OT1/phv/m/sl/10.95 In-dige-nous A
+ware-ness  \OT1/phv/m/n/10.95 - Or-gan-ised by In-dige-nous Cor-po-rate Train-i
+ng
+ []
+
+[2]
+Overfull \hbox (2.37988pt too wide) in paragraph at lines 412--413
+[]\OT1/phv/m/sl/10.95 Science\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 PLoS Ge-n
+et-ics\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 Molec-u-lar Bi-ol-ogy and Evo-lu
+-tion\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 Evo-lu-tion\OT1/phv/m/n/10.95 , \
+OT1/phv/m/sl/10.95 Molec-u-lar Ecol-ogy\OT1/phv/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (25.19815pt too wide) in paragraph at lines 412--413
+\OT1/phv/m/sl/10.95 Genome Bi-ol-ogy and Evo-lu-tion\OT1/phv/m/n/10.95 , \OT1/p
+hv/m/sl/10.95 Ecol-ogy and Evo-lu-tion\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 
+Fron-tiers in Zo-ol-ogy\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 Peer Com-mu-nit
+y
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 486--488
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
 
  []
 >>>>>>> origin/master
@@ -460,42 +546,64 @@ Missing character: There is no Ã in font cmti10!
 Missing character: There is no © in font cmti10!
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 393--396
 =======
 Underfull \hbox (badness 10000) in paragraph at lines 387--388
+>>>>>>> origin/master
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 513--514
 >>>>>>> origin/master
 
  []
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 399--401
 =======
 Underfull \hbox (badness 10000) in paragraph at lines 389--390
 >>>>>>> origin/master
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 525--526
 
  []
 
+>>>>>>> origin/master
 
+Overfull \hbox (4.25468pt too wide) in paragraph at lines 527--528
+[]\OT1/phv/m/n/10.95 K.A. By-ers - Bioin-for-mat-ics/genomics men-tor for PhD p
+roject (2018-2020) - \OT1/phv/m/sl/10.95 Now post-doc-toral
+ []
+
+
+<<<<<<< HEAD
 <<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 401--403
 =======
 Underfull \hbox (badness 10000) in paragraph at lines 391--392
 >>>>>>> origin/master
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 527--528
+>>>>>>> origin/master
 
  []
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 412--414
 =======
 Underfull \hbox (badness 10000) in paragraph at lines 395--397
 >>>>>>> origin/master
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
+>>>>>>> origin/master
 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--532
 
  []
 
@@ -503,36 +611,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 397--399
 Underfull \hbox (badness 10000) in paragraph at lines 415--417
 =======
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 407--409
+>>>>>>> origin/master
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 533--534
 >>>>>>> origin/master
 
  []
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 418--420
 =======
 Underfull \hbox (badness 10000) in paragraph at lines 410--412
 >>>>>>> origin/master
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 539--541
+>>>>>>> origin/master
 
  []
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 421--423
 =======
 Underfull \hbox (badness 10000) in paragraph at lines 413--415
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 542--544
+>>>>>>> origin/master
 
  []
 
 >>>>>>> origin/master
 
-Overfull \hbox (10.68282pt too wide) in paragraph at lines 416--418
+Underfull \hbox (badness 10000) in paragraph at lines 545--547
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--553
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 554--556
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--559
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--562
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 563--565
+
+ []
+
+
+Overfull \hbox (10.68282pt too wide) in paragraph at lines 566--568
 \OT1/phv/m/sl/10.95 Patterns of ge-netic di-ver-sity around protein-coding ex-o
 ns and con-served non-coding el-e-ments
  []
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 424--426
 
@@ -543,19 +694,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 428--430
 =======
 Underfull \hbox (badness 10000) in paragraph at lines 416--418
 >>>>>>> origin/master
-
- []
-
-
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 431--433
 =======
-Underfull \hbox (badness 10000) in paragraph at lines 419--421
+Underfull \hbox (badness 10000) in paragraph at lines 566--568
 >>>>>>> origin/master
 
  []
 
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+Underfull \hbox (badness 10000) in paragraph at lines 431--433
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 419--421
+>>>>>>> origin/master
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 569--571
+>>>>>>> origin/master
+
+ []
+
+
+<<<<<<< HEAD
 <<<<<<< HEAD
 AED: lastpage setting LastPage
 [3]
@@ -590,89 +749,91 @@ PDF statistics:
  89 words of extra memory for PDF output out of 10000 (max. 10000000)
 =======
 Underfull \hbox (badness 10000) in paragraph at lines 422--424
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 572--574
+>>>>>>> origin/master
 
  []
 
 
-Overfull \hbox (6.20732pt too wide) in paragraph at lines 425--427
+Overfull \hbox (6.20732pt too wide) in paragraph at lines 575--577
 \OT1/phv/m/sl/10.95 Selective sweeps and back-ground se-lec-tion in the genome 
 of wild house mice, \OT1/phv/m/n/10.95 Mus mus-cu-lus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--427
+Underfull \hbox (badness 10000) in paragraph at lines 575--577
 
  []
 
 
-Overfull \hbox (6.20732pt too wide) in paragraph at lines 428--430
+Overfull \hbox (6.20732pt too wide) in paragraph at lines 578--580
 \OT1/phv/m/sl/10.95 Selective sweeps and back-ground se-lec-tion in the genome 
 of wild house mice, \OT1/phv/m/n/10.95 Mus mus-cu-lus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--430
+Underfull \hbox (badness 10000) in paragraph at lines 578--580
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--433
+Underfull \hbox (badness 10000) in paragraph at lines 581--583
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--436
+Underfull \hbox (badness 10000) in paragraph at lines 584--586
 
  []
 
 
-Overfull \hbox (6.20732pt too wide) in paragraph at lines 438--440
+Overfull \hbox (6.20732pt too wide) in paragraph at lines 588--590
 \OT1/phv/m/sl/10.95 Selective sweeps and back-ground se-lec-tion in the genome 
 of wild house mice, \OT1/phv/m/n/10.95 Mus mus-cu-lus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--440
+Underfull \hbox (badness 10000) in paragraph at lines 588--590
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--443
-
- []
-
-[3] [4] 
+[5] 
 AED: lastpage setting LastPage
-[5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 477.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 477.
- (./Academic_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 477.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 477.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 595.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 595.
+(./Academic_CV.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 595.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 595.
 Package rerunfilecheck Info: File `Academic_CV.out' has not changed.
-(rerunfilecheck)             Checksum: 98A8D515FB9F66B7F904EE54D27EB8B0;461.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 477.
+(rerunfilecheck)             Checksum: AB6E0A63D5121FEC5805C051E64720D0;625.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 595.
  ) 
 Here is how much of TeX's memory you used:
- 6219 strings out of 493117
- 93207 string characters out of 6135432
- 191231 words of memory out of 5000000
- 9616 multiletter control sequences out of 15000+600000
+ 6223 strings out of 493117
+ 93255 string characters out of 6135432
+ 191283 words of memory out of 5000000
+ 9618 multiletter control sequences out of 15000+600000
  15711 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,5n,68p,329b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,14n,68p,477b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texmf-
-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Academic_CV.pdf (5 pages, 63075 bytes).
+exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Academic_CV.pdf (5 pages, 53399 bytes).
 PDF statistics:
+<<<<<<< HEAD
  97 PDF objects out of 1000 (max. 8388607)
  83 compressed objects within 1 object stream
  15 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> origin/master
+=======
+ 106 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 >>>>>>> origin/master
 

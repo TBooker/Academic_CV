@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.12)  3 MAY 2022 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.12)  25 MAY 2022 09:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -398,112 +398,108 @@ Overfull \hbox (12.25952pt too wide) in paragraph at lines 377--378
 , D. (2015). ``Molec-u-lar evo-lu-tion: break-throughs
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
+
+ []
+
 [2]
-Overfull \hbox (3.9598pt too wide) in paragraph at lines 391--392
-[]\OT1/phv/m/n/10.95 2021 - Par-tic-i-pant - \OT1/phv/m/sl/10.95 In-dige-nous A
-ware-ness  \OT1/phv/m/n/10.95 - Or-gan-ised by In-dige-nous Cor-po-rate Train-i
-ng
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 408--410
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
+Underfull \hbox (badness 10000) in paragraph at lines 404--406
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--436
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 449--450
-
- []
-
-
-Overfull \hbox (4.25468pt too wide) in paragraph at lines 451--452
-[]\OT1/phv/m/n/10.95 K.A. By-ers - Bioin-for-mat-ics/genomics men-tor for PhD p
-roject (2018-2020) - \OT1/phv/m/sl/10.95 Now post-doc-toral
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 451--452
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 453--454
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 455--456
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 457--458
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
 
  []
 
 [3]
-Overfull \hbox (2.37988pt too wide) in paragraph at lines 486--487
+Overfull \hbox (14.47046pt too wide) in paragraph at lines 479--480
 []\OT1/phv/m/sl/10.95 Science\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 PLoS Ge-n
-et-ics\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 Molec-u-lar Bi-ol-ogy and Evo-lu
--tion\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 Evo-lu-tion\OT1/phv/m/n/10.95 , \
-OT1/phv/m/sl/10.95 Molec-u-lar Ecol-ogy\OT1/phv/m/n/10.95 ,
+et-ics\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 The Plant Cell\OT1/phv/m/n/10.95
+ , \OT1/phv/m/sl/10.95 Molec-u-lar Bi-ol-ogy and Evo-lu-tion\OT1/phv/m/n/10.95 
+, \OT1/phv/m/sl/10.95 Evo-lu-tion\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 Molec
+-u-lar
  []
 
 
-Overfull \hbox (2.41586pt too wide) in paragraph at lines 512--513
-[]\OT1/phv/m/n/10.95 2021 - Post-doc rep-re-sen-ta-tive on search com-mit-tee f
-or head of the Bio-di-ver-sity Re-search
+Overfull \hbox (13.73131pt too wide) in paragraph at lines 479--480
+\OT1/phv/m/sl/10.95 Ecol-ogy\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 Pro-ceed-i
+ngs of the Royal So-ci-ety B\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 New Phy-to
+l-o-gist\OT1/phv/m/n/10.95 , \OT1/phv/m/sl/10.95 Genome Bi-ol-ogy and Evo-lu-ti
+on\OT1/phv/m/n/10.95 ,
  []
 
-[4] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+
+ []
+
+[4] [5] [6]
+LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <12> not available
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 628.
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <12> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 628.
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--633
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
+
+ []
+
+
 AED: lastpage setting LastPage
-[5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 599.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 599.
+[7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 645.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 645.
  (./Academic_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 599.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 599.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 645.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 645.
 Package rerunfilecheck Info: File `Academic_CV.out' has not changed.
 (rerunfilecheck)             Checksum: A9B3809F845E8824DABD0763645CD904;625.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 599.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 645.
  ) 
 Here is how much of TeX's memory you used:
- 6223 strings out of 493117
- 93255 string characters out of 6135432
- 191283 words of memory out of 5000000
- 9618 multiletter control sequences out of 15000+600000
- 15711 words of font info for 34 fonts, out of 8000000 for 9000
+ 6229 strings out of 493117
+ 93315 string characters out of 6135432
+ 191291 words of memory out of 5000000
+ 9620 multiletter control sequences out of 15000+600000
+ 17470 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,13n,68p,467b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,14n,68p,467b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texm
-f-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Academic_CV.pdf (5 pages, 51093 bytes).
+14/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texmf-dist
+/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Academic_CV.pdf (7 pages, 60270 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
+ 124 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
+ 19 named destinations out of 1000 (max. 500000)
  89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
